@@ -7,6 +7,7 @@ class Viewer {
             <form method="POST" action="/auth/login">
                 <label for="username">Username:</label><input type="text" name="username">
                 <label for="password">Password:</label><input type="password" name="password">
+                <input type="hidden" name="redirect" value="/protected">
                 <input type="submit" value="Login">
             </form>
 
